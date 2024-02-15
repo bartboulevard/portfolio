@@ -1,0 +1,269 @@
+/* Global styles */
+
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Font styles */
+
+h1 {
+    font-size: 72px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Questrial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hide and show classes for scroll animation */
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.project-hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.section {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.section-heading {
+    font-size: 72px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.intro {
+    text-align: right;
+    font-size: 72px;
+    margin-top: 212px;
+}
+
+.intro-text {
+    margin-top: 200px;
+    margin-bottom: 190px;
+}
+
+.intro-text h2 {
+    font-size: 48px;
+}
+
+.intro-text h4 {
+    font-size: 24px;
+}
+
+.about-me {
+    padding-top: 40px;
+}
+
+.skill-section-heading {
+    font-size: 72px;
+    padding-bottom: 10px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.skills {
+    margin-bottom: 90px;
+    padding-top: 40px;
+    position: relative;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.skill-box {
+    width: 241px;
+    height: 232px;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+}
+.logo {
+    width: 100px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+}
+.skill-text {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.project-section-heading {
+    font-size: 72px;
+    padding-bottom: 10px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+}
+
+.project-image {
+    width: 500px;
+    margin-right: 20px;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project-number {
+    font-size: 72px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.project-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.project-text {
+    max-width: 800px;
+}
+
+.liikumine-project-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    align-items: flex-end;
+    max-width: inherit;
+}
+
+
+.liikumine-project-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.liikumine-project-number {
+    display: flex;
+    flex-direction: row;
+    font-size: 72px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.liikumine-project-title {
+    display: flex;
+    flex-direction: row;
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.liikumine-description {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+}
+
+.liikumine.text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+.baltic-project-image {
+    width: 700px;
+    margin-right: 20px;
+}
+
+.contact-section-heading {
+    font-size: 72px;
+    padding-bottom: 10px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+.contact-details {
+    margin-bottom: 10px;
+}
+
+.contact-logo {
+    width: 100px;
+    height: 100px;
+    flex-wrap: inherit;
+    fill: #932121;
+}
+
+.link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
